@@ -1,0 +1,538 @@
+html {
+  background-color: #fdfdfd
+}
+
+body {
+  font-family: "Avenir", sans-serif;
+  font-size: 16px;
+  color: #1f1e1e;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+header img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  min-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+}
+
+h1 {
+  font-family: "Palatino", serif;
+  font-size: 70px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: #1f1e1e;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #1f1e1e;
+}
+
+
+.buttonandnav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbutton {
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.navbutton img {
+  width: 90px;
+}
+
+nav menu {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: #efefef;
+  padding: 20px;
+  margin: 10px;
+}
+
+nav menu li {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+nav menu li a {
+  text-decoration: none;
+  color: #1f1e1e;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+
+
+article {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #f8eaea;
+  padding: 20px;
+  margin: 0px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.3;
+  background-color: #5b4a4a;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+}
+
+aside h2 {
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+aside p,
+aside p a {
+  color: #d5d0b6;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+
+
+.home {
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home article h2 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.home .click {
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.home article .homewelcome img {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home article img {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  min-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.applebutton {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.applebutton:hover {
+  background-color: #5b4a4a;
+  border: 5px solid #5b4a4a;
+}
+
+.outsideapplemodal {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.applemodal {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6ecda;
+  border: 2px solid #b6a589;
+  border-radius: 20px;
+  padding: 20px;
+  width: 50%;
+  height: 70%;
+  max-width: 800px;
+  min-height: 200px;
+  position: fixed;
+  top: 20%;
+  bottom: 20%;
+  right: 20%;
+  left: 20%;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.applemodaltop {
+  display: flex;
+  flex-direction: row;
+}
+
+.applemodaltop button {
+  margin-left: auto;
+  align-content: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+}
+
+.applemodaltop button img {
+  width: 100px;
+}
+
+.carouselpics {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+}
+
+.leftarrow,
+.rightarrow {
+  background-color: transparent;
+  border: 0px;
+}
+
+.leftarrow img {
+  width: 50px;
+  max-width: 50px;
+}
+
+.carouselpics picture img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+}
+
+.rightarrow img {
+  width: 50px;
+  max-width: 50px;
+}
+
+
+
+.homeimages {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeimageshops {
+  text-align: center;
+  max-width: 200px;
+  padding-right: 30px;
+}
+
+.homeimagefood {
+  text-align: center;
+  max-width: 200px;
+  padding-right: 30px;
+}
+
+.homeimageentertainment {
+  text-align: center;
+  max-width: 200px;
+}
+
+
+
+.activities {
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.activities h3,
+.map h3 {
+  color: #893131;
+  border-bottom: 1px solid #6c6c6c;
+  margin-bottom: 0px;
+}
+
+.activities article blockquote {
+  border-left: 2px solid #727272;
+  margin: 10px;
+  font-style: italic;
+}
+
+.activities article .shop {
+  display: flex;
+  flex-direction: row;
+}
+
+.activities article .shop img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  min-width: 150px;
+  padding-right: 20px;
+}
+
+.activities article .shop blockquote {
+  border-left: 2px solid #727272;
+  margin: 10px;
+  font-style: italic;
+  max-width: 300px;
+}
+
+.activities article .shopvendors1 {
+  padding-right: 20px;
+}
+
+.activities article .donuts {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activities article .donuts img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  min-width: 150px;
+  padding-right: 30px;
+}
+
+.activities article .eat {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.activities article .eat img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  min-width: 150px;
+  padding-right: 20px;
+}
+
+.activities article .foodvendors {
+  padding-right: 20px;
+}
+
+.activities article .entertainmentmusic p {
+  text-align: center;
+}
+
+.activities article .entertainmentpics {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.activities article .entertainmentpics img {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  min-width: 150px;
+  padding-right: 30px;
+}
+
+
+.map {
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.map article .maphead img {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.map article .waystogetthere p {
+  margin-bottom: 20px;
+}
+
+.map article .waystogettheresource p,
+.map article .waystogettheresource p a {
+  color: #626262;
+}
+
+
+
+.faq {
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.faq article .faqhead img {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  min-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq article dt {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
+footer p {
+  text-align: center;
+}
+
+
+.hidden {
+  display: none !important;
+}
+
+
+
+@media (max-width: 870px) {
+  header {
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  nav menu {
+    display: block;
+  }
+
+  nav menu li a {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .homeimages {
+    flex-direction: column;
+  }
+
+  .activities {
+    flex-direction: column;
+  }
+
+  .activities article .shop {
+    flex-direction: column;
+  }
+
+  .activities article .shopvendors1 ul {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .activities article .shop img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .activities article .shop blockquote {
+    max-width: none;
+  }
+
+  .activities article .eat {
+    flex-direction: column;
+  }
+
+  .activities article .donuts {
+    flex-direction: column;
+  }
+
+  .activities article .donuts img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .activities article .eat img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .activities article .entertainmentpics {
+    flex-direction: column;
+  }
+
+  .activities article .entertainmentpics img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .map {
+    flex-direction: column;
+  }
+
+  .faq {
+    flex-direction: column;
+  }
+}
